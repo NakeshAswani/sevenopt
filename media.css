@@ -1,0 +1,119 @@
+@media only screen and (min-width: 200px) and (max-width: 575px){
+    .mobilefixed{
+        display: flex;
+    }
+    .fixedlogos{
+        right: 10px;
+    }
+    .navbar{
+        padding: 5px 10px;
+    }
+    .navbar img{
+        width: 220px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar>i{
+        display: block;
+    }
+    .bannerinner{
+        flex-direction: column;
+        padding: 50px 15px 20px 15px;
+        gap: 20px;
+    }
+    .bannertext h1{
+        font-size: 22px;
+    }
+    .bannertext button{
+        width: 60%;
+        font-size: 18px;
+    }
+    .aboutEnquiryinner{
+        flex-direction: column;
+        padding: 50px 15px;
+    }
+    .enquiryblocks{
+        flex-direction: column;
+    }
+    .reviewinner{
+        flex-direction: column;
+        padding: 30px 15px 50px 15px;
+    }
+    .reviewinner .reviewBlock:last-child{
+        display: none;
+    }
+    .servicesinner{
+        padding: 0px 15px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+    }
+    .contactinner{
+        flex-direction: column;
+        padding: 50px 15px;
+        gap: 30px;
+    }
+    .contactinner button{
+        width: 40%;
+        margin-right: 0px;
+    }
+    .whybestinner{
+        flex-direction: column;
+        padding: 50px 15px;
+    }
+    .whybestblocks{
+        flex-direction: column;
+    }
+    .visainner{
+        flex-direction: column;
+        padding: 50px 15px;
+        gap: 30px;
+    }
+    .program{
+        padding: 50px 15px;
+    }
+    .programinner{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .programinner h4{
+        font-size: 20px;
+    }
+    .expertservices{
+        padding: 50px 15px;
+    }
+    .expertservicesinner{
+        padding: 0px 50px;
+    }
+    .expertservicesinner img{
+        display: none;
+    }
+    .expertservicesinner img:first-child{
+        display: block;
+        width: 100%;
+    }
+    .qa-forminner{
+        flex-direction: column;
+        padding: 50px 15px;
+    }
+    .qa-formleft{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .qa-formright{
+        border-radius: 0px 0px 10px 10px;
+        padding: 50px 15px;
+    }
+    .footertopin{
+        line-height: 25px;
+    }
+    .footerbottom{
+        padding: 40px 15px;
+    }
+    .footerbottomin{
+        flex-direction: column;
+        padding: 0px;
+        align-items: stretch;
+        gap: 20px;
+    }
+}
